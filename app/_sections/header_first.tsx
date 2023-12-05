@@ -1,0 +1,22 @@
+export const FirstHeader = () => {
+    return <div className="w-full flex py-[10%] px-[5%] md:px-[10%] relative overflow-hidden" style={{
+        background: 'linear-gradient(75deg, #6B00FF 0%, #C219CB 100%)'
+    }}>
+        <img src={'Group 183.png'} className="absolute right-0 top-0 w-[35%] z-0"/>
+        <div className="md:max-w-[70%] z-10">
+            <div className="text-white text-header1 font-[300] leading-[64px]">
+                Miller birikir gider, dakikalar kullanılır gider ama ELYT ile hatıralar sonsuza kadar kalır.
+            </div>
+            <div className="text-white text-subtitle2 font-[500] mt-5 w-full text-center md:text-left">
+                ELYT kurumsal avantajlarını keşfedin
+            </div>
+            <div className="mx-auto md:mx-0 w-fit">
+                <button className="inline-flex items-start gap-[10px] px-[24px] py-[12px] relative bg-[#ffffff] rounded-[25px] overflow-hidden border-[3px] border-solid border-[#9d71cb] all-[unset] box-border mt-5 mx-auto">
+                    <div className="relative w-fit [font-family:'Rubik-Medium',Helvetica] font-medium text-[#9d71cb] text-[18px] tracking-[0] leading-[36px] whitespace-nowrap">
+                        Kayıt Ol
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+};
