@@ -24,6 +24,7 @@ const icons = {
 const Thing = ({icon, title, description}: {icon: string, title: any, description: string}) => {
     return <div className="bg-[#E6E8FA] lg:bg-[#ECF1F9] px-8 py-10 rounded-[30px]">
         <div className="flex items-center">
+            {/* @ts-ignore */}
             {icons[icon]}
         </div>
         <div className="text-[#262626] text-[24px] font-[300] italic mt-10">{title}</div>
