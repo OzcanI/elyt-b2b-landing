@@ -5,7 +5,7 @@ export const FirstHeader = () => {
         <img src={'Group 183.png'} className="absolute right-0 top-0 w-[35%] z-0"/>
         <div className="md:max-w-[70%] z-10">
             <div className="text-white text-header1 font-[300] leading-[64px]">
-                Miller birikir gider, dakikalar kullanılır gider ama ELYT ile hatıralar sonsuza kadar kalır.
+                Miller birikir gider, dakikalar kullanılır gider ama <span className="font-[600]">ELYT</span> ile hatıralar sonsuza kadar kalır.
             </div>
             <div className="text-white text-subtitle2 font-[500] mt-5 w-full text-center md:text-left">
                 ELYT kurumsal avantajlarını keşfedin
