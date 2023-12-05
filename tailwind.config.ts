@@ -11,6 +11,10 @@ const config: Config = {
       screens: {
         "md5": "1370px",
       },
+      maxWidth: {
+        container: '1570px',
+        halfContainer: '685px',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

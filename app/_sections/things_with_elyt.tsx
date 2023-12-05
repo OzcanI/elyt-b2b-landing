@@ -36,38 +36,41 @@ const Thing = ({icon, title, description}: {icon: string, title: any, descriptio
 
 export const ThingsWithElty = () => {
     return <div className="w-full py-[5%] px-[5%] md:px-[10%] relative overflow-hidden z-10">
-        <div className="text-[68px] font-[300]"><span className="font-[600]">ELYT</span> ile yapabilecekleriniz</div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 md5:grid-cols-3 gap-x-[40px] gap-y-[67px] mt-[67px]">
-            <Thing 
-                icon="artwork"
-                title={<>Make Your Own <span className="font-[600]">Artwork</span></>}
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            />
-            <Thing 
-                icon="upload"
-                title={<><span className="font-[600]">Upload</span> Your NFT</>}
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            />
-            <Thing 
-                icon="sale"
-                title={<>Use Them For <span className="font-[600]">Sale</span></>}
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            />
-            <Thing 
-                icon="artwork"
-                title={<>Make Your Own <span className="font-[600]">Artwork</span></>}
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            />
-            <Thing 
-                icon="upload"
-                title={<><span className="font-[600]">Upload</span> Your NFT</>}
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            />
-            <Thing 
-                icon="sale"
-                title={<>Use Them For <span className="font-[600]">Sale</span></>}
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            />
+        <div className="max-w-container mx-auto">
+            <div className="text-[68px] font-[300] text-center md:text-left"><span className="font-[600]">ELYT</span> ile yapabilecekleriniz</div>
+            <div className="grid grid-cols-1 lg:grid-cols-2 md5:grid-cols-3 gap-x-[40px] gap-y-[67px] mt-[67px]">
+                <Thing 
+                    icon="artwork"
+                    title={<>Hedef Kitlenize Yönelik  <span className="font-[600]">Sanatsal Tasarım</span></>}
+                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                />
+                <Thing 
+                    icon="upload"
+                    title={<><span className="font-[600]">Kural Setleri </span> Sayesinde Yüksek Etkileşim</>}
+                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                />
+                <Thing 
+                    icon="sale"
+                    title={<>Use Them For <span className="font-[600]">Sale</span></>}
+                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                />
+                <Thing 
+                    icon="artwork"
+                    title={<>Make Your Own <span className="font-[600]">Artwork</span></>}
+                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                />
+                <Thing 
+                    icon="upload"
+                    title={<><span className="font-[600]">Upload</span> Your NFT</>}
+                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                />
+                <Thing 
+                    icon="sale"
+                    title={<>Use Them For <span className="font-[600]">Sale</span></>}
+                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                />
+            </div>
         </div>
+        
     </div>
 };

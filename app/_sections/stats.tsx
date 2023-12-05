@@ -11,10 +11,10 @@ const Stat = ({value, label}: {value: string, label: string}) => {
 
 export const Stats = () => {
     return <div className="w-full py-[5%] px-[5%] md:px-[10%] relative overflow-hidden">
-        <div className="flex space-x-5 justify-between w-full items-center">
-            <Stat value="+302" label="Aktif Kullanıcı"/>
-            <Stat value="+302" label="Toplam Satılan NFT"/>
-            <Stat value="+302" label="Dağıtılan Hediye"/>
+        <div className="flex space-x-5 justify-between w-full items-center max-w-container mx-auto">
+            <Stat value="+25 K" label="Aktif Kullanıcı"/>
+            <Stat value="+500 K" label="Toplam Satılan NFT"/>
+            <Stat value="+1.5 K" label="Dağıtılan Hediye"/>
             <div className="text-[36px] font-[600] hidden md5:block">
                 Alınan Yatırımlar
             </div>
@@ -28,10 +28,10 @@ export const Stats = () => {
             </div>
         </div>
 
-        <div className="grid grid-cols-1 md5:grid-cols-2 mt-10 justify-between w-full items-center">
+        <div className="grid grid-cols-1 md5:grid-cols-2 mt-10 justify-between w-full items-center max-w-container mx-auto">
             <div className="flex items-center justify-center mb-[5%] md5:mb-0">
                 <div className="text-[32px] md5:text-[44px] font-[300]">
-                    <span className="font-[600]">100+</span> Marka
+                    <span className="font-[600]">10+</span> Marka
                 </div>
                 <img src="Group 162669.png" className="h-[50px] md5:h-[111px] ml-5 md5:ml-auto md5:mr-10"/>
             </div>

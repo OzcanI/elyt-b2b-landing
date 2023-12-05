@@ -19,7 +19,6 @@ export default function Home() {
       <Loyalty />
       <ThingsWithElty />
       <Subscribe />
-      <ContactUs />
       <Footer />
     </div>
   )

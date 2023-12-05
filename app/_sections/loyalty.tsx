@@ -23,32 +23,36 @@ const LoyaltyTitle = ({title, description}: {title: string, description: string}
 export const Loyalty = () => {
     return <div className="w-full md5:flex md5:space-x-[30px] py-[80px] space-y-12 md5:space-y-0">
         <div className="w-full">
-            <div className="mx-auto md5:ml-auto w-fit">
+            <div className="mx-auto md5:ml-auto md5:mr-0 w-fit">
                 <LoyaltyTitle
                     title="Loyalty Sistemim Var"
-                    description="Mevcut sisteminize hatıra token ekleme imkanı ELYT’de."
+                    description="Mevcut sadakat programınızı ELYT’e kolayca bağlayabilirsiniz."
                 />
             </div>
             <div className="bg-[#E6E8FA] md5:bg-[#ECF1F9] py-[70px] px-[45px] md5:px-[90px] rounded-t-[36px] md5:rounded-l-none md5:rounded-r-[36px]">
-                <Subject 
-                    title={`Mevcut Loyalty Sistemlerine nasıl entegre oluyoruz?`}
-                    description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'}
-                />
+                <div className="md5:max-w-halfContainer md5:ml-auto md5:h-[300px]">
+                    <Subject 
+                        title={`Mevcut Loyalty Sistemlerine nasıl entegre oluyoruz?`}
+                        description={'Halihazırda bir sadakat sisteminiz varsa mevcut kurgularınızı ELYT’in sunduğu API’ler ve markanıza özel geliştirebileceğimiz dijital hatıralıklar ile çok daha güçlü bir yapıya kavuşturabilirsiniz.'}
+                    />
+                </div>
             </div>
         </div>
 
         <div className="w-full">
-            <div className="mx-auto md5:ml-auto w-fit">
+            <div className="mx-auto md5:mr-auto md5:ml-0 w-fit">
                 <LoyaltyTitle
                     title="Loyalty Sistemim Var"
-                    description="ELYT Modern Loyalty Çözümü, en yeni teknolojiler ile tüm sadakat senaryolarını kurgulamaya hazır."
+                    description="ELYT sizin için en uygun senaryoları kurgulamaya hazır."
                 />
             </div>
             <div className="bg-[#E6E8FA] md5:bg-[#ECF1F9] py-[70px] px-[45px] md5:px-[90px] rounded-t-[36px] md5:rounded-r-none md5:rounded-l-[36px]">
-                <Subject 
-                    title={`Hemen bugün bir loyalty çözümüne mi ihtiyacınız var?`}
-                    description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'}
-                />
+                <div className="md5:max-w-halfContainer md5:h-[300px]">
+                    <Subject 
+                        title={`Hemen bugün bir loyalty çözümüne mi ihtiyacınız var?`}
+                        description={'ELYT olarak ihtiyacınız olan sadakat programını sizin için uçtan uca tasarlayabiliriz. Güçlü görseller, interaktif etkileşimler, oyunlaştırma öğeleri ve fark yaratacak değer önerileri ile hedef kitlenizle ilişkinizi çağın ötesine taşıyın.'}
+                    />
+                </div>
             </div>
         </div>
     </div>
