@@ -29,7 +29,7 @@ export const Loyalty = () => {
                     description="Mevcut sadakat programınızı ELYT’e kolayca bağlayabilirsiniz."
                 />
             </div>
-            <div className="bg-[#E6E8FA] md5:bg-[#ECF1F9] py-[70px] px-[45px] md5:px-[90px] rounded-t-[36px] md5:rounded-l-none md5:rounded-r-[36px]">
+            <div className="bg-[#E6E8FA] md5:bg-[#ECF1F9] py-[70px] px-[45px] md5:pr-[90px] md5:pl-[20%] rounded-t-[36px] md5:rounded-l-none md5:rounded-r-[36px]">
                 <div className="md5:max-w-halfContainer md5:ml-auto md5:h-[300px]">
                     <Subject 
                         title={`Mevcut Loyalty Sistemlerine nasıl entegre oluyoruz?`}
@@ -46,7 +46,7 @@ export const Loyalty = () => {
                     description="ELYT sizin için en uygun senaryoları kurgulamaya hazır."
                 />
             </div>
-            <div className="bg-[#E6E8FA] md5:bg-[#ECF1F9] py-[70px] px-[45px] md5:px-[90px] rounded-t-[36px] md5:rounded-r-none md5:rounded-l-[36px]">
+            <div className="bg-[#E6E8FA] md5:bg-[#ECF1F9] py-[70px] px-[45px] md5:pl-[90px] md5:pr-[20%] rounded-t-[36px] md5:rounded-r-none md5:rounded-l-[36px]">
                 <div className="md5:max-w-halfContainer md5:h-[300px]">
                     <Subject 
                         title={`Hemen bugün bir loyalty çözümüne mi ihtiyacınız var?`}

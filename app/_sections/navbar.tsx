@@ -31,7 +31,7 @@ const HamburgerLogo = () => {
 }
 
 const Links = {
-    kesfet: () => <Link href="/">
+    kesfet: () => <Link href="https://elyt.net" target="_blank">
         <p className="text-[16px] text-black font-[500]">Elyt&apos;i Keşfet</p>
     </Link>,
     corporate: () => <Link href="/">
@@ -62,7 +62,9 @@ export const Navbar = () => {
                     {Links.kesfet()}
                 </div>
                 <div className="absolute left-[50%] translate-x-[-50%] w-[200px]">
-                    <ElytLogo />
+                    <Link href="https://elyt.net" target="_blank">
+                        <ElytLogo />
+                    </Link>
                 </div>
                 <div className="space-x-4 items-center hidden lg:flex">
                     {Links.corporate()}
