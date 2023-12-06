@@ -45,12 +45,16 @@ const Links = {
     </div>
 }
 
-const SideBar = ({open}: {open: boolean}) => {
+const SideBar = ({open, setOpen}: {open: boolean, setOpen: any}) => {
     return <div className={`fixed ${open ? 'top-0': 'top-[-100vh]'} transition-all duration-300 left-0 w-[100vw] h-[100vh] bg-white z-20`}>
         <div className="mt-[100px] text-center space-y-10 grid grid-cols-1"> 
-            {Links.kesfet()}
-            {/* Links.corporate() */}
-            {Links.connect()}
+            {[Links.kesfet(), Links.connect()].map((link, i) => 
+                <div key={i}
+                    onClick={() => {
+                        setOpen(false);
+                    }}
+                >{link}</div>
+            )}
         </div>
     </div>
 }
@@ -58,7 +62,7 @@ const SideBar = ({open}: {open: boolean}) => {
 export const Navbar = () => {
     const [open, setOpen] = useState(false);
     return <>
-        <SideBar open={open}/>
+        <SideBar open={open} setOpen={setOpen}/>
         <div>
             <div className="w-[200px] py-6 opacity-0">
                 <Link href="https://elyt.net" target="_blank">
