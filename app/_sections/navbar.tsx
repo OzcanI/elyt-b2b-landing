@@ -46,7 +46,7 @@ const SideBar = ({open}: {open: boolean}) => {
     return <div className={`fixed ${open ? 'top-0': 'top-[-100vh]'} transition-all duration-300 left-0 w-[100vw] h-[100vh] bg-white z-20`}>
         <div className="mt-[100px] text-center space-y-10 grid grid-cols-1"> 
             {Links.kesfet()}
-            {Links.corporate()}
+            {/* Links.corporate() */}
             {Links.connect()}
         </div>
     </div>
@@ -74,7 +74,7 @@ export const Navbar = () => {
                     </Link>
                 </div>
                 <div className="space-x-4 items-center hidden lg:flex">
-                    {Links.corporate()}
+                    {/* Links.corporate() */}
                     {Links.connect()}
                 </div>
                 <div className="lg:hidden ml-auto">

@@ -46,9 +46,9 @@ export const Stats = () => {
                 <div className="text-[32px] md5:text-[44px] font-[300]">
                     <span className="font-[600]">10+</span> Marka
                 </div>
-                <img src="Group 162669.png" className="h-[50px] md5:h-[111px] ml-5 md5:ml-auto md5:mr-10"/>
+                <img src="Group 162748.png" className="h-[50px] md5:h-[111px] ml-5 md5:ml-auto md5:mr-10"/>
             </div>
-            <div className="flex items-center justify-center md5:order-1 mt-10 md5:my-0">
+            <div className="flex items-center justify-center md5:order-1 mt-10">
                 <div className="text-[18px] md5:text-[36px] font-[500]">
                     Desteklenen Blockchain Ağı
                 </div>
