@@ -1,6 +1,7 @@
 "use client"
 import Link from "next/link";
 import { useState } from "react";
+import { scrollToId } from "../_utils/scrollToId";
 
 const ElytLogo = () => {
     return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 179 31" fill="none">
@@ -37,9 +38,11 @@ const Links = {
     corporate: () => <Link href="/">
         <p className="text-[16px] text-black font-[500]">Kurumsal Çözümler</p>
     </Link>,
-    connect: () => <Link href="/" className="text-[16px] text-black font-[500]">
+    connect: () => <div onClick={() => {
+        scrollToId('subscribe');
+    }} className="text-[16px] text-black font-[500]">
         <button className="h-[45px] px-5 bg-[#A76ACF] rounded-full text-[18px] font-[600] text-white">Kayıt Ol</button>
-    </Link>
+    </div>
 }
 
 const SideBar = ({open}: {open: boolean}) => {

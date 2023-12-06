@@ -1,3 +1,6 @@
+"use client"
+import { scrollToId } from "../_utils/scrollToId";
+
 export const FirstHeader = () => {
     return <div className="w-full flex py-[10%] px-[5%] md:px-[10%] relative overflow-hidden" style={{
         background: 'linear-gradient(75deg, #6B00FF 0%, #C219CB 100%)'
@@ -12,7 +15,9 @@ export const FirstHeader = () => {
                     ELYT kurumsal avantajlarını keşfedin
                 </div>
                 <div className="mx-auto md:mx-0 w-fit">
-                    <button className="inline-flex items-start gap-[10px] px-[24px] py-[12px] relative bg-[#ffffff] rounded-[25px] overflow-hidden border-[3px] border-solid border-[#9d71cb] all-[unset] box-border mt-5 mx-auto">
+                    <button onClick={() => {
+                            scrollToId('subscribe');
+                        }} className="inline-flex items-start gap-[10px] px-[24px] py-[12px] relative bg-[#ffffff] rounded-[25px] overflow-hidden border-[3px] border-solid border-[#9d71cb] all-[unset] box-border mt-5 mx-auto">
                         <div className="relative w-fit [font-family:'Rubik-Medium',Helvetica] font-medium text-[#9d71cb] text-[18px] tracking-[0] leading-[36px] whitespace-nowrap">
                             Kayıt Ol
                         </div>
