@@ -30,10 +30,10 @@ export const Stats = () => {
 
         <div className="grid grid-cols-1 md5:grid-cols-2 mt-10 justify-between w-full items-center max-w-container mx-auto">
             <div className="flex items-center md5:hidden justify-center space-x-2 md:space-x-10">
-                <div className="text-[18px] md:text-[36px] font-[600]">
+                <div className="text-[15px] xs:text-[18px] md:text-[36px] font-[600]">
                     Alınan Yatırımlar
                 </div>
-                <div className="text-[18px] md:text-[36px] font-[600]">
+                <div className="text-[15px] xs:text-[18px] md:text-[36px] font-[600]">
                     1.5M $
                 </div>
                 <div className="text-[36px] font-[600]">

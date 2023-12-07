@@ -10,7 +10,7 @@ const Subject = ({title, description}: {title: string, description: string}) => 
 }
 
 const LoyaltyTitle = ({title, description}: {title: string, description: string}) => {
-    return <div className="bg-[#C9DEFF] md5:bg-[#E6E8FA] w-[340px] h-[220px] py-[24px] px-[47px] rounded-[25px] mb-[18px]">
+    return <div className="bg-[#C9DEFF] md5:bg-[#E6E8FA] w-[340px] max-w-[95vw] md:h-[220px] py-[24px] px-[47px] rounded-[25px] mb-[18px]">
         <div className="text-[24px] font-[600]">
             {title}
         </div>
@@ -42,7 +42,7 @@ export const Loyalty = () => {
         <div className="w-full">
             <div className="mx-auto md5:mr-auto md5:ml-0 w-fit">
                 <LoyaltyTitle
-                    title="Loyalty Sistemim Var"
+                    title="Loyalty Sistemim Yok"
                     description="ELYT sizin için en uygun senaryoları kurgulamaya hazır."
                 />
             </div>

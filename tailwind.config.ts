@@ -9,6 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       screens: {
+        "xs": "360px",
         "md5": "1370px",
       },
       maxWidth: {

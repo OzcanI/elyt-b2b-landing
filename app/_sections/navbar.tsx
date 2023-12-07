@@ -64,13 +64,11 @@ export const Navbar = () => {
     return <>
         <SideBar open={open} setOpen={setOpen}/>
         <div>
-            <div className="w-[200px] py-6 opacity-0">
-                <Link href="https://elyt.net" target="_blank">
-                    <ElytLogo />
-                </Link>
+            <div className="w-[200px] h-[66px] lg:h-[93px]">
+                
             </div>
         </div>
-        <div className="w-full bg-white py-6 px-[5%] md:px-[10%] z-30 fixed top-0">
+        <div className="w-full bg-white py-6 px-5 md:px-[5%] lg:px-[10%] z-30 fixed top-0">
             <div className="flex justify-between max-w-container mx-auto items-center relative z">
                 <div className="space-x-4 items-center hidden lg:flex">
                     {Links.kesfet()}
