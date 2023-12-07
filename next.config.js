@@ -5,7 +5,7 @@ const nextConfig = {
         return [
             {
                 source: '/test/:path*',
-                destination: `https://api.elyt.net/:path*`
+                destination: `https://api.elyt.net/:path*/`
                 //destination: `https://api-dev.elyt.dev/:path*`
             }
         ];
