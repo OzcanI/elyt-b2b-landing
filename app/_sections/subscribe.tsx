@@ -25,7 +25,7 @@ export const Subscribe = () => {
                         <span className="font-[600]">Bültenimize abone olun</span> ve <br/>
                         <span className="font-[600]">hediye hatıra kartınızı</span> alın
                     </div>
-                    {!submitted ? <><div className="border-[#564B8F] border mt-5 w-fit mx-auto rounded-[25px] overflow-hidden">
+                    {!submitted ? <><div className="border-[#564B8F] h-[56px] border mt-5 w-fit mx-auto rounded-[25px] overflow-hidden">
                         <form onSubmit={(e) => {
                                 setTimeout(() => {
                                     setSubmitted(true);
