@@ -16,7 +16,7 @@ export const Subscribe = () => {
                 setSubmitted(true);
                 scrollToId('subscribe', true);
                 setTimeout(() => {
-                    router.replace(window.location.pathname, {
+                    router.replace(window.location.href.split('?')[0], {
                         scroll: false
                     });
                 }, 1000);
