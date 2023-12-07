@@ -29,9 +29,9 @@ export const Subscribe = () => {
             <img alt="subscribe_background" className="mt-[-30%] mb-[-30%] z-[-1] max-w-[2300px] w-[150%] ml-[50%] translate-x-[-50%] md5:w-full hidden md:block" src="bg_contact.webp"/>
             <img alt="subscribe_background" className="mt-[-30%] mb-[-30%] z-[-1] max-w-[99999px] w-[150%] ml-[-25%] md5:ml-0 md5:w-full block md:hidden" src="bg_contact_mobile.webp"/>
             <div className="absolute w-full h-full left-0 top-0 flex items-center justify-center">
-                <div id="subscribe" className="w-full max-w-container mx-auto mt-[-10%] md:mt-0">
+                <div id="subscribe" className="w-full max-w-container mx-auto mt-[-50%] sm:mt-[-10%] md:mt-0">
                     <img alt="book" src="book.webp" className="w-[55%] md:w-[20%] mx-auto"/>
-                    <div className="text-[30px] md:text-[44px] font-[300] w-fit mx-auto text-center">
+                    <div className="text-[22px] xs:text-[24px] sm:text-[30px] md:text-[44px] font-[300] w-fit mx-auto text-center">
                         <span className="font-[600]">Bültenimize abone olun</span> ve <br/>
                         <span className="font-[600]">hediye hatıra kartınızı</span> alın
                     </div>
@@ -54,7 +54,7 @@ export const Subscribe = () => {
                             <input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Abone Ol" className="h-[55px] max-w-[50vw] px-5 md:px-10 bg-[#A76ACF] text-[20px] font-[600] text-white"/>
                         </form>
                     </div>
-                    <div className="text-[20px] text-[#828282] font-[300] text-center mt-5">Lütfen <span className="font-[600]">kurumsal</span> mail adresinizi girin!</div>
+                    <div className="text-[18px] xs:text-[20px] text-[#828282] font-[300] text-center mt-5">Lütfen <span className="font-[600]">kurumsal</span> mail adresinizi girin!</div>
                     </>: <div className="mt-5 w-fit mx-auto text-[44px] rounded-[25px] overflow-hidden">
                             Teşekkürler!
                         </div>
