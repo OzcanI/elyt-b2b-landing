@@ -4,7 +4,7 @@ const nextConfig = {
     async rewrites() {
         return [
           {
-            source: '/api/:path*',
+            source: '/test/:path*',
             destination: `https://api.elyt.net/:path*`
             //destination: `https://api-dev.elyt.dev/:path*`
           }
