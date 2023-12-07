@@ -10,7 +10,7 @@ export const MemoryToken = () => {
                 </div>
             </div>
             <div className="hidden md5:block">
-                <img src={'memory_token.webp'} className="w-full"/>
+                <img alt="memory_token" src={'memory_token.webp'} className="w-full"/>
             </div>
         </div>
     </div>
