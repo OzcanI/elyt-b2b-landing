@@ -2,7 +2,7 @@
 const nextConfig = {
     output: 'export',
     async rewrites() {
-        this.redirects = [
+        return [
             {
                 source: '/test/:path*',
                 destination: `https://api.elyt.net/:path*`
