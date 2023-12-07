@@ -30,9 +30,9 @@ export const Subscribe = () => {
                                 setTimeout(() => {
                                     setSubmitted(true);
                                 }, 500);
-                            }} method="POST" action="https://db193fbe.sibforms.com/serve/MUIFAIjoOHvvcm35cfOvxw_j4_RfBidorEahahYorZvoqbH9ck9VnOG3CL3880emW0Jh3j0kbfO_nPsnLN-sovCtLHZBGOIp0VBIKe5_JVzeGQozTiwdKbU2-SsLPSQZMdLVTvJgyAjjXjdLI6DvdP6XArvtZNVjd6rpg4gDPMjpyf9tYB2Ji5qvTdo43WkZcg0Z9WxcalYeRfmH" data-type="subscription">
-                            <input type="email" name="EMAIL" id="EMAIL" required={true} className="w-[250px] md:w-[300px] h-[55px] border-none rounded-[5px] px-5" placeholder="E-mail adresiniz"/>
-                            <input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Abone Ol" className="h-[55px] px-5 md:px-10 bg-[#A76ACF] text-[20px] font-[600] text-white"/>
+                            }} className="flex" method="POST" action="https://db193fbe.sibforms.com/serve/MUIFAIjoOHvvcm35cfOvxw_j4_RfBidorEahahYorZvoqbH9ck9VnOG3CL3880emW0Jh3j0kbfO_nPsnLN-sovCtLHZBGOIp0VBIKe5_JVzeGQozTiwdKbU2-SsLPSQZMdLVTvJgyAjjXjdLI6DvdP6XArvtZNVjd6rpg4gDPMjpyf9tYB2Ji5qvTdo43WkZcg0Z9WxcalYeRfmH" data-type="subscription">
+                            <input type="email" name="EMAIL" id="EMAIL" required={true} className="w-[250px] md:w-[300px] max-w-[50vw] h-[55px] border-none rounded-[5px] px-5" placeholder="E-mail adresiniz"/>
+                            <input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Abone Ol" className="h-[55px] max-w-[50vw] px-5 md:px-10 bg-[#A76ACF] text-[20px] font-[600] text-white"/>
                         </form>
                     </div>
                     <div className="text-[20px] text-[#828282] font-[300] text-center mt-5">Lütfen <span className="font-[600]">kurumsal</span> mail adresinizi girin!</div>
